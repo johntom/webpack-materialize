@@ -51,8 +51,7 @@ const coreBundles = {
   ],
   materialize: [
       'materialize-css'
-  ],
-  'aurelia-materialize-bridge': [ 'aurelia-materialize-bridge' ]
+  ]
 }
 
 const baseConfig = {
@@ -60,8 +59,7 @@ const baseConfig = {
     'app': ['./src/main'],
     'aurelia-bootstrap': ['./index'].concat(coreBundles.bootstrap),
     'aurelia': coreBundles.aurelia.filter(pkg => coreBundles.bootstrap.indexOf(pkg) === -1),
-    'materialize': coreBundles.materialize,
-    'aurelia-materialize-bridge': coreBundles['aurelia-materialize-bridge']
+    'materialize': coreBundles.materialize
   },
   output: {
     path: outDir,

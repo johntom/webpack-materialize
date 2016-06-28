@@ -1,16 +1,10 @@
 <template bindable="router">
-  <!--<nav>
+  <nav>
     <div class="nav-wrapper">
       <a href="#" class="brand-logo">Aurelia skeleton</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}"><a href.bind="row.href">${row.title}</a></li>
       </ul>
     </div>
-  </nav>-->
-  <md-navbar>
-    <a href="#/samples/navbar" class="brand-logo"><span>webpack!</span></a>
-    <ul class="hide-on-med-and-down right">
-      <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}"><a href.bind="row.href">${row.title}</a></li>
-    </ul>
-  </md-navbar>
+  </nav>
 </template>

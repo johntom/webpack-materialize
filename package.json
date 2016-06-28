@@ -65,10 +65,7 @@
   "homepage": "https://github.com/aurelia/skeleton-navigation#readme",
   "aurelia": {
     "build": {
-      "resources": [
-          "aurelia-materialize-bridge/badge/badge",
-          "aurelia-materialize-bridge/navbar/navbar"
-      ]
+      "resources": [ ]
     }
   },
   "dependencies": {
@@ -79,7 +76,6 @@
     "aurelia-history-browser": "^1.0.0-rc.1.0.0",
     "aurelia-loader-webpack": "^1.0.0-rc.1.0.0",
     "aurelia-logging-console": "^1.0.0-rc.1.0.0",
-    "aurelia-materialize-bridge": "^0.8.1",
     "aurelia-pal-browser": "^1.0.0-rc.1.0.0",
     "aurelia-polyfills": "^1.0.0-rc.1.0.0",
     "aurelia-route-recognizer": "^1.0.0-rc.1.0.0",
